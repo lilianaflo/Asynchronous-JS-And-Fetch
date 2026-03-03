@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon Team Builder</title>
+        <link rel="styleSheet" href="myStyleSheet.css">
+        <script src="js.js" defer></script>
+    </head>
+    <body>
+        <h1 id="title">Pokemon Team Builder</h1>
+    </body>
+    <main>
+        <!--User inputs the name or ID of pokemon
+         fetch occurs here and response is parsed.
+         Information is loaded onto the screen-->
+         <div id="nameInput">
+            <form onsubmit="doFetch(event)">
+                <br><label for="nameID">Name or ID:</label><br>
+                <input type="text" id="nameIDIn">
+
+                <input type="submit" value="Find">
+            </form>
+        </div>
+
+        <!--Photo of Pokemon-->
+        <br><img src="" id="pokemonImage" >
+
+        <!--Audio for Pokemon-->
+        <audio src="" id="pokemonCry" controls></audio>
+
+        <!--4 Drop downs for moves-->
+        <div id="movesContainer">
+            <br><select name="moves" id="moves">
+                <option value="1"></option>
+            </select>
+
+            <select name="moves2" id="moves2">
+                <option value="1"></option>
+            </select>
+
+            <br><select name="moves3" id="moves3">
+                <option value="1"></option>
+            </select>
+
+            <select name="moves4" id="moves4">
+             <option value="1"></option>
+            </select>
+        </div>
+        <!--Add to team button:
+        page dynamically adds the content to the page:
+        appear as table-->
+        <br><button id="addBtn" type="button">Add to Team</button><br><br>
+
+        <div id="tableSection">
+            <table id="teamTable">
+
+            </table>
+        </div>
+    </main>
+</html>

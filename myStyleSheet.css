@@ -1,0 +1,64 @@
+body{
+    background-color: lightblue;
+}
+main{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(210, 183, 27);
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#dropDown{
+    padding: 20px;
+}
+#moves{
+    width: 30%;
+}
+#moves2{
+    width: 30%;
+}
+#moves3{
+    width: 30%;
+}
+#moves4{
+    width: 30%;
+}
+
+#tableSection{
+    display: none;
+
+    border-collapse: collapse;
+    border: 1.5px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#addBtn{
+    padding: 5px;
+}
+#pokemonImage{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+#teamTable{
+    border-collapse: collapse;
+    width: 100%;
+}
+#teamTable td{
+    border-bottom: 1.5px solid black;
+    padding: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
